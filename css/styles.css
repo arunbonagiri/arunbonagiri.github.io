@@ -1,0 +1,80 @@
+.fa {
+  padding: 15px;
+  font-size: 100px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10%;
+  color: black;
+}
+
+#container {
+  display: flex;
+}
+
+#custom-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  float: left;
+  background: linear-gradient(270deg, #ffffff2e, #00380b);
+}
+
+#about {
+  position: absolute;
+  top: 5px;
+  right: 50px;
+  text-align: right;
+  font-size: 1.5rem;
+  font-family: "Saira Condensed", sans-serif;
+  font-weight: 10;
+  color: hsl(0, 0%, 17.6%);
+  }
+
+#custom-about {
+  position: absolute;
+  top: 80px;
+  right: 20px;
+  float: right;
+  background: rgba(255, 255, 255, 0);
+  border-radius: 2%;
+}
+
+#profile-picture {
+  position: absolute;
+  top: 40px;
+  right: 0px;
+  border-radius: 10%;
+  text-align: right;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+#profile-name { 
+  position: absolute;
+  top: 320px;
+  right: 30px;
+  text-align: right;
+  font-size: 2.2rem;
+  font-family: "Saira Condensed", sans-serif;
+  font-weight: 100;
+  color: hsl(0, 0%, 17.6%);
+  }
+
+#profile-bio {
+  position: relative;
+  top: 380px;
+  right: 30px;
+  font-size: 1.0rem;
+  font-family: "Saira Condensed", sans-serif;
+  font-weight: 10;
+  color: hsl(0, 0%, 17.6%);
+  text-align: right;
+}
+
+#social-links {
+  position: relative;
+  top: 410px;
+  right: 16px;
+  text-align: right;
+}
